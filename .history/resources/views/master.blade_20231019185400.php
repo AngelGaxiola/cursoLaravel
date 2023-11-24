@@ -9,7 +9,7 @@
     <script src="{{ asset('code.jquery.com_jquery-3.7.1.js') }}"></script>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: blue;">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: blue">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Control Escolar
           </a>
@@ -43,13 +43,13 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-12 card mt-3">
+            <div class="col-12">
                 @yield('contenido')
             </div>
         </div>
     </div>
 
-    <footer class="text-center"><hr>
+    <footer><hr>
         Sistema de control escolar &copy; 2023
     </footer>
     <script src="{{ asset('js/bootstrap.js') }}"></script>

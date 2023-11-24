@@ -9,7 +9,7 @@
     <script src="{{ asset('code.jquery.com_jquery-3.7.1.js') }}"></script>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: blue;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Control Escolar
           </a>
@@ -26,16 +26,19 @@
                   Alumnos
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Registrar alumno</a></li>
-                  <li><a class="dropdown-item" href="#">Consultar alumnos</a></li>
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Ir al inicio</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
               </li>
             </ul>
             <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Buscar</button>
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
             </form>
           </div>
         </div>
@@ -43,13 +46,13 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-12 card mt-3">
+            <div class="col-12">
                 @yield('contenido')
             </div>
         </div>
     </div>
 
-    <footer class="text-center"><hr>
+    <footer><hr>
         Sistema de control escolar &copy; 2023
     </footer>
     <script src="{{ asset('js/bootstrap.js') }}"></script>

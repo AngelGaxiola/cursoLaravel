@@ -43,7 +43,7 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-12 card mt-3">
+            <div class="col-12 card mt-2">
                 @yield('contenido')
             </div>
         </div>

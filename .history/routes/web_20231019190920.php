@@ -10,6 +10,8 @@ Route::get('/', function () {
 
 route::get('/bienvenido', [bienvenidoController::class, 'bienvenido']);
 
-route::get('/inicio', [bienvenidoController::class, 'inicio']);
+route::get('/inicio', [bienvenidoController::class, 'bienvenido']);
 
 route::get('/alumnos', [AlumnoController::class, 'alumnos']);
+
+

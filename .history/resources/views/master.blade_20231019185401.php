@@ -43,13 +43,13 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-12 card mt-3">
+            <div class="col-12">
                 @yield('contenido')
             </div>
         </div>
     </div>
 
-    <footer class="text-center"><hr>
+    <footer><hr>
         Sistema de control escolar &copy; 2023
     </footer>
     <script src="{{ asset('js/bootstrap.js') }}"></script>

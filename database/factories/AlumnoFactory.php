@@ -16,8 +16,15 @@ class AlumnoFactory extends Factory
      */
     public function definition(): array
     {
+        $nc = $this->faker->email();
+        $nombre = $this->faker->name();
+        $sexo = $this->faker->boolean();
+        $edad = $this->faker->numberBetween(18,90);
         return [
-            //
+            'nombre' =>$nombre,
+            'edad' => $edad,
+            'nc' => $nc,
+            'sexo' => $sexo
         ];
     }
 }
